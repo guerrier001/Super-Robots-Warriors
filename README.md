@@ -1,3 +1,4 @@
-MecchaRPG
+Super Robots & Warriors
 =========
-MecchaRPG Jeu RPG Action a la Tales of sur les Mecha créer via GameMaker.
+Jeu RPG Action, 
+création via GameMaker.
