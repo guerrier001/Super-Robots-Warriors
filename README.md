@@ -1,4 +1,11 @@
-Super Robots & Warriors
+﻿Mechanical Rising
 =========
-Jeu RPG Action, 
-création via GameMaker.
+A-RPG creating on GameMaker
+Developer/Editor : Warkenji Yukochi
+email : warkenji.yukochi@gmail.com
+
+Story :
+
+=========
+
+en cours
