@@ -1,0 +1,6 @@
+
+
+
+draw_text(1,20,"#life EIA = " + string(e1) + "#life EIA2 = " + string(e2) + "#life EIA3 = " + string(e3) + "#life EIA4 = " + string(e4))
+draw_text(150,20,"#life HJ = " + string(h2)  + "#life HIA = " + string(h1))
+

@@ -1,0 +1,17 @@
+if object_exists(EIA)
+e1 = EIA.life
+
+if object_exists(EIA2)
+e2 = EIA2.life
+
+if object_exists(EIA3)
+e3 = EIA3.life
+
+if object_exists(EIA4)
+e4 = EIA4.life
+
+if object_exists(HIA)
+h1 = HIA.life
+
+if object_exists(HJ)
+h2 = HJ.life
