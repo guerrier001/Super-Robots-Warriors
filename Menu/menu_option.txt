@@ -1,0 +1,52 @@
+ini_open("savedata.ini")
+global.up = ini_read_real("Options","Up",real(vk_up));
+global.down = ini_read_real("Options","Down",real(vk_down));
+global.left = ini_read_real("Options","Left",real(vk_left));
+global.right = ini_read_real("Options","Right",real(vk_right));
+global.zoomup = ini_read_real("Options","Zoomup","Z");
+global.zoomdown = ini_read_real("Options","Zoomdown",real(ord("S")));
+global.turnleft = ini_read_real("Options","Turnleft",real(ord("Q")));
+global.turnright = ini_read_real("Options","Turnright",real(ord("D")));
+global.map = ini_read_real("Options","Map",real(ord("M")));
+global.atk1 = ini_read_real("Options","Atk1",real(ord("W")));
+global.atk2 = ini_read_real("Options","Atk2",real(ord("X")));
+global.def = ini_read_real("Options","Defense",real(vk_shift));
+global.jump = ini_read_real("Options","Jump",real(vk_space));
+global.invent = ini_read_real("Options","Inventaire",real(ord("I")));
+global.acc = ini_read_real("Options","Accept",real(vk_enter));
+global.cancel = ini_read_real("Options","Cancel",real(vk_backspace));
+global.perso1 = ini_read_real("Options","Perso1",real(vk_numpad1));
+global.perso2 = ini_read_real("Options","Perso2",real(vk_numpad2));
+global.perso3 = ini_read_real("Options","Perso3",real(vk_numpad3));
+global.use = ini_read_real("Options","Use",real(ord("F")));
+
+
+
+
+ini_write_string("Options","Char_Up","Up");
+ini_write_string("Options","Char_Down","Down");
+ini_write_string("Options","Char_Left","Left");
+ini_write_string("Options","Char_Right","Right");
+ini_write_string("Options","Char_Zoomup","Z");
+ini_write_string("Options","Char_Zoomdown","S");
+ini_write_string("Options","Char_Turnleft","Q");
+ini_write_string("Options","Char_Turnright","D");
+ini_write_string("Options","Char_Map","M");
+ini_write_string("Options","Char_Atk1","W");
+ini_write_string("Options","Char_Atk2","X");
+ini_write_string("Options","Char_Defense","Maj");
+ini_write_string("Options","Char_Jump","Espace");
+ini_write_string("Options","Char_Inventaire","I");
+ini_write_string("Options","Char_Accept","Entrée");
+ini_write_string("Options","Char_Cancel","Retour Arrière");
+ini_write_string("Options","Char_Perso1","NumPad 1");
+ini_write_string("Options","Char_Perso2","NumPad 2");
+ini_write_string("Options","Char_Perso3","NumPad 3");
+ini_write_string("Options","Char_Use","F");
+
+
+
+
+
+
+ini_close()
